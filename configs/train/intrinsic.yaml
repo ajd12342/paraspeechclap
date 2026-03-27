@@ -1,0 +1,24 @@
+# @package _global_
+# Training config for ParaSpeechCLAP-Intrinsic
+# Trains with contrastive + classification loss on intrinsic tags with class-balanced sampling
+
+defaults:
+  - base
+  - _self_
+
+meta:
+  experiment_name: paraspeechclap_intrinsic
+
+hparams:
+  max_steps: 4500  # Stop training after 4500 steps (3 checkpoints at save_every_n_steps=1500)
+
+data:
+  dataset_name: ajd12342/paraspeechcaps-intrinsic-train
+
+multitask:
+  enable_classification: true
+  tag_columns: ["intrinsic_tags"]
+  template_json_path: ./data/synonym_templates.json
+  use_balanced_sampling: true
+  balanced_sampling:
+    tag_column: "intrinsic_tags"

@@ -1,0 +1,15 @@
+# Classification evaluation config (base)
+# Override candidate_styles (and data.*) in leaf configs, e.g. eval/classification/pitch or eval/classification/situational
+# Usage: python scripts/evaluate_classification.py --config-name eval/classification/pitch checkpoint_path=/path/to/ckpt
+
+defaults:
+  - eval/base
+  - _self_
+
+save_predictions: true
+save_confusion_matrix: true
+save_logits: false
+
+# Override these for specific attribute evaluation:
+candidate_styles: ???
+gold_label_column: classification_tag

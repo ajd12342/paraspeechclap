@@ -1,0 +1,12 @@
+# Classification: pitch attribute
+# Usage: python scripts/evaluate_classification.py --config-name eval/classification/pitch checkpoint_path=/path/to/ckpt
+
+defaults:
+  - eval/classification/base
+  - _self_
+
+data:
+  dataset_name: ajd12342/paraspeechclap-eval-intrinsic
+  split: classification_pitch
+
+candidate_styles: ["shrill", "nasal", "deep"]

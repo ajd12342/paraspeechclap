@@ -1,0 +1,12 @@
+# Classification: rhythm attribute
+# Usage: python scripts/evaluate_classification.py --config-name eval/classification/rhythm checkpoint_path=/path/to/ckpt
+
+defaults:
+  - eval/classification/base
+  - _self_
+
+data:
+  dataset_name: ajd12342/paraspeechclap-eval-intrinsic
+  split: classification_rhythm
+
+candidate_styles: ["flowing", "punctuated", "hesitant", "singsong", "monotonous"]

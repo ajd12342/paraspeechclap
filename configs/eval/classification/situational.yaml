@@ -1,0 +1,12 @@
+# Classification: situational styles on ajd12342/paraspeechclap-eval-situational (test split)
+# Usage: python scripts/evaluate_classification.py --config-name eval/classification/situational checkpoint_path=/path/to/ckpt
+
+defaults:
+  - eval/classification/base
+  - _self_
+
+data:
+  dataset_name: ajd12342/paraspeechclap-eval-situational
+  split: test
+
+candidate_styles: ["angry", "guilt", "scared", "happy", "loud", "sarcastic", "sympathetic", "desirous", "enthusiastic", "saddened", "anxious", "sleepy", "admiring", "disgusted", "awed", "pained", "fast", "calm", "whispered", "enunciated", "confused"]

@@ -1,0 +1,10 @@
+# Retrieval evaluation config
+# Usage: python scripts/evaluate_retrieval.py --config-name eval/retrieval checkpoint_path=/path/to/checkpoint.pth.tar data.dataset_name=ajd12342/paraspeechclap-eval-intrinsic
+
+defaults:
+  - eval/base
+  - _self_
+
+save_similarity_matrix: false
+save_top_k_captions: true
+top_k_value: 10

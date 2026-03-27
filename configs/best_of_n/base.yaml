@@ -1,0 +1,31 @@
+# Base config for Best-of-N TTS guidance using ParaSpeechCLAP
+# Shared defaults inherited by all best-of-N configs
+
+# Base directory containing iter_1, iter_2, ..., iter_N folders with TTS outputs
+input_base_dir: ???
+
+# Number of TTS candidate iterations (N)
+num_iterations: 10
+
+# Output directory name (created inside input_base_dir)
+output_dir_name: ???  # Override in child config
+
+# Path to ParaSpeechCLAP checkpoint
+checkpoint_path: ???  # Override in child config
+
+models:
+  text: ibm-granite/granite-embedding-278m-multilingual
+  speech: microsoft/wavlm-large
+  embedding_dim: 768
+  projection_dropout: 0.5
+
+audio_processing:
+  target_sr: 16000
+
+meta:
+  device: null
+  log_level: "INFO"
+  tqdm_disable: false
+  batch_size: 8
+  num_workers: 8
+  selection_summary_file: "selection_summary.json"

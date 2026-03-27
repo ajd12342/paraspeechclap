@@ -1,0 +1,16 @@
+# @package _global_
+# Training config for ParaSpeechCLAP-Situational
+# Trains with contrastive loss only on situational data (no classification, no balanced sampling)
+
+defaults:
+  - base
+  - _self_
+
+meta:
+  experiment_name: paraspeechclap_situational
+
+hparams:
+  epochs: 25
+
+data:
+  dataset_name: ajd12342/paraspeechcaps-situational-train

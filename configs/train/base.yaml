@@ -1,0 +1,54 @@
+# @package _global_
+# Base training config for ParaSpeechCLAP
+# Shared defaults inherited by all training configs
+
+meta:
+  results: ./experiments
+  experiment_name: ???  # Override in child config
+  device: null
+  tqdm_disable: false
+  log_level: INFO
+  seed: 3407
+  ddp_timeout_minutes: 30
+
+hparams:
+  learning_rate: 0.00001
+  batch_size: 32  # Per-GPU batch size (32 x 4 GPUs = 128 effective)
+  epochs: null  # Override one of epochs or max_steps in child config
+  max_steps: null  # Override one of epochs or max_steps in child config
+  num_workers: 4
+  save_every_n_steps: 1500  # Save checkpoints every 1500 steps
+
+models:
+  text: ibm-granite/granite-embedding-278m-multilingual
+  speech: microsoft/wavlm-large
+  embedding_dim: 768
+  projection_dropout: 0.5
+  max_logit_scale: 100
+
+data:
+  dataset_name: ???  # Override in child config
+  dataset_probabilities: null
+  stopping_strategy: "all_exhausted"
+  concatenate_datasets: false
+  split: train
+  audio_root: null
+  random_crop: true
+  crop_duration: 10
+
+multitask:
+  enable_classification: false
+  tag_columns: null  # Override in child config if enable_classification is true
+  prompt_template: "A person is speaking in a {} style."
+  template_json_path: null
+  log_tag_distribution_every_n_batches: 100
+  use_balanced_sampling: false
+  balanced_sampling:
+    tag_column: null  # Override in child config if use_balanced_sampling is true
+    weighting_strategy: "inverse_frequency"
+    min_rare_tags_per_batch: 2
+    rare_tag_threshold: 0.05
+
+wandb:
+  project: "paraspeechclap"
+  entity: null  # Set to your WandB username or team

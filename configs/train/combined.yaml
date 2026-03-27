@@ -1,0 +1,17 @@
+# @package _global_
+# Training config for ParaSpeechCLAP-Combined
+# Trains with contrastive loss only on combined intrinsic+situational data
+
+defaults:
+  - base
+  - _self_
+
+meta:
+  experiment_name: paraspeechclap_combined
+
+hparams:
+  epochs: 5
+
+data:
+  # Combined: situational + intrinsic datasets, interleaved
+  dataset_name: ajd12342/paraspeechcaps-intrinsic-train+ajd12342/paraspeechcaps-situational-train

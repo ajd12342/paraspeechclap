@@ -1,0 +1,25 @@
+# Base evaluation config shared by classification, retrieval, and other eval scripts
+
+meta:
+  results: ./eval_results
+  tqdm_disable: false
+  log_level: INFO
+  device: null  # auto-detect
+
+models:
+  text: ibm-granite/granite-embedding-278m-multilingual
+  speech: microsoft/wavlm-large
+  embedding_dim: 768
+  projection_dropout: 0.5
+
+data:
+  dataset_name: ???  # Override in specific eval config
+  audio_root: null
+  split: "test"
+  eval_batch_size: 8
+  sort_by_duration: true
+
+# Path to model checkpoint
+checkpoint_path: ???  # Override: path to .pth.tar checkpoint
+
+num_workers: 8

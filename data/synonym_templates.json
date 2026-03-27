@@ -1,0 +1,354 @@
+{
+    "crisp": [
+        "A person is speaking in a brisk style",
+        "A person is speaking in a incisive style",
+        "A person is speaking in a clean style",
+        "A person is speaking in a precise style",
+        "A person is speaking in a sharp-edged style",
+        "A person is speaking in a crisp style"
+    ],
+    "slurred": [
+        "A person is speaking in a incoherent style",
+        "A person is speaking in a unclear style",
+        "A person is speaking in a mushy style",
+        "A person is speaking in a maundering style",
+        "A person is speaking in a blurred style",
+        "A person is speaking in a slurred style"
+    ],
+    "stammering": [
+        "A person is speaking in a hesitant style",
+        "A person is speaking in a stumbling style",
+        "A person is speaking in a sputtering style",
+        "A person is speaking in a jerky style",
+        "A person is speaking in a broken style",
+        "A person is speaking in a stammering style"
+    ],
+    "deep": [
+        "A person is speaking in a full-bodied style",
+        "A person is speaking in a low-toned style",
+        "A person is speaking in a sonorous style",
+        "A person is speaking in a booming style",
+        "A person is speaking in a resounding style",
+        "A person is speaking in a deep style"
+    ],
+    "shrill": [
+        "A person is speaking in a sharp style",
+        "A person is speaking in a strident style",
+        "A person is speaking in a earsplitting style",
+        "A person is speaking in a piping style",
+        "A person is speaking in a thin style",
+        "A person is speaking in a shrill style"
+    ],
+    "nasal": [
+        "A person is speaking in a reedy style",
+        "A person is speaking in a tinny style",
+        "A person is speaking in a pinched style",
+        "A person is speaking in a singsong style",
+        "A person is speaking in a whining style",
+        "A person is speaking in a nasal style"
+    ],
+    "flowing": [
+        "A person is speaking in a graceful style",
+        "A person is speaking in a continuous style",
+        "A person is speaking in a uninterrupted style",
+        "A person is speaking in a smooth-flowing style",
+        "A person is speaking in a easy style",
+        "A person is speaking in a flowing style"
+    ],
+    "monotonous": [
+        "A person is speaking in a tedious style",
+        "A person is speaking in a humdrum style",
+        "A person is speaking in a repetitive style",
+        "A person is speaking in a unvaried style",
+        "A person is speaking in a boring style",
+        "A person is speaking in a monotonous style"
+    ],
+    "punctuated": [
+        "A person is speaking in a emphasized style",
+        "A person is speaking in a marked style",
+        "A person is speaking in a interrupted style",
+        "A person is speaking in a dotted style",
+        "A person is speaking in a broken style",
+        "A person is speaking in a punctuated style"
+    ],
+    "hesitant": [
+        "A person is speaking in a faltering style",
+        "A person is speaking in a wavering style",
+        "A person is speaking in a indecisive style",
+        "A person is speaking in a reluctant style",
+        "A person is speaking in a unsure style",
+        "A person is speaking in a hesitant style"
+    ],
+    "singsong": [
+        "A person is speaking in a rhythmic style",
+        "A person is speaking in a chanting style",
+        "A person is speaking in a musical style",
+        "A person is speaking in a rising-and-falling style",
+        "A person is speaking in a intoning style",
+        "A person is speaking in a singsong style"
+    ],
+    "silky": [
+        "A person is speaking in a sleek style",
+        "A person is speaking in a lustrous style",
+        "A person is speaking in a polished style",
+        "A person is speaking in a satin style",
+        "A person is speaking in a glassy style",
+        "A person is speaking in a silky style"
+    ],
+    "husky": [
+        "A person is speaking in a throaty style",
+        "A person is speaking in a guttural style",
+        "A person is speaking in a croaking style",
+        "A person is speaking in a thick style",
+        "A person is speaking in a dry style",
+        "A person is speaking in a husky style"
+    ],
+    "raspy": [
+        "A person is speaking in a scraping style",
+        "A person is speaking in a abrasive style",
+        "A person is speaking in a jarring style",
+        "A person is speaking in a raspy style",
+        "A person is speaking in a discordant style",
+        "A person is speaking in a raspy style"
+    ],
+    "guttural": [
+        "A person is speaking in a gruff style",
+        "A person is speaking in a gravelly style",
+        "A person is speaking in a throaty style",
+        "A person is speaking in a harsh style",
+        "A person is speaking in a low style",
+        "A person is speaking in a guttural style"
+    ],
+    "vocal-fry": [
+        "A person is speaking in a growling style",
+        "A person is speaking in a gravelly style",
+        "A person is speaking in a low-pitched style",
+        "A person is speaking in a crepitant style",
+        "A person is speaking in a rough style",
+        "A person is speaking in a vocal-fry style"
+    ],
+    "booming": [
+        "A person is speaking in a thundering style",
+        "A person is speaking in a roaring style",
+        "A person is speaking in a resounding style",
+        "A person is speaking in a deafening style",
+        "A person is speaking in a explosive style",
+        "A person is speaking in a booming style"
+    ],
+    "authoritative": [
+        "A person is speaking in a assertive style",
+        "A person is speaking in a masterful style",
+        "A person is speaking in a self-assured style",
+        "A person is speaking in a firm style",
+        "A person is speaking in a imposing style",
+        "A person is speaking in an authoritative style"
+    ],
+    "loud": [
+        "A person is speaking in a deafening style",
+        "A person is speaking in a noisy style",
+        "A person is speaking in a thunderous style",
+        "A person is speaking in a blaring style",
+        "A person is speaking in a piercing style",
+        "A person is speaking in a loud style"
+    ],
+    "soft": [
+        "A person is speaking in a faint style",
+        "A person is speaking in a low style",
+        "A person is speaking in a hushed style",
+        "A person is speaking in a whispered style",
+        "A person is speaking in a muted style",
+        "A person is speaking in a soft style"
+    ],
+    "angry": [
+        "A person is speaking in a irate style",
+        "A person is speaking in a furious style",
+        "A person is speaking in a enraged style",
+        "A person is speaking in a livid style",
+        "A person is speaking in a wrathful style",
+        "A person is speaking in an angry style"
+    ],
+    "guilt": [
+        "A person is speaking in a apologetic style",
+        "A person is speaking in a remorseful style",
+        "A person is speaking in a ashamed style",
+        "A person is speaking in a contrite style",
+        "A person is speaking in a penitent style",
+        "A person is speaking in a guilt style"
+    ],
+    "scared": [
+        "A person is speaking in a frightened style",
+        "A person is speaking in a fearful style",
+        "A person is speaking in a terrified style",
+        "A person is speaking in a panicked style",
+        "A person is speaking in a petrified style",
+        "A person is speaking in a scared style"
+    ],
+    "happy": [
+        "A person is speaking in a cheerful style",
+        "A person is speaking in a joyful style",
+        "A person is speaking in a elated style",
+        "A person is speaking in a gleeful style",
+        "A person is speaking in a jubilant style",
+        "A person is speaking in a happy style"
+    ],
+    "sarcastic": [
+        "A person is speaking in a mocking style",
+        "A person is speaking in a derisive style",
+        "A person is speaking in a cynical style",
+        "A person is speaking in a sardonic style",
+        "A person is speaking in a scornful style",
+        "A person is speaking in a sarcastic style"
+    ],
+    "sympathetic": [
+        "A person is speaking in a compassionate style",
+        "A person is speaking in a empathetic style",
+        "A person is speaking in a understanding style",
+        "A person is speaking in a caring style",
+        "A person is speaking in a commiserating style",
+        "A person is speaking in a sympathetic style"
+    ],
+    "desirous": [
+        "A person is speaking in a longing style",
+        "A person is speaking in a yearning style",
+        "A person is speaking in a covetous style",
+        "A person is speaking in a craving style",
+        "A person is speaking in a wistful style",
+        "A person is speaking in a desirous style"
+    ],
+    "enthusiastic": [
+        "A person is speaking in a eager style",
+        "A person is speaking in a ardent style",
+        "A person is speaking in a fervent style",
+        "A person is speaking in a zealous style",
+        "A person is speaking in a passionate style",
+        "A person is speaking in an enthusiastic style"
+    ],
+    "saddened": [
+        "A person is speaking in a sorrowful style",
+        "A person is speaking in a mournful style",
+        "A person is speaking in a dejected style",
+        "A person is speaking in a crestfallen style",
+        "A person is speaking in a despondent style",
+        "A person is speaking in a saddened style"
+    ],
+    "anxious": [
+        "A person is speaking in a worried style",
+        "A person is speaking in a nervous style",
+        "A person is speaking in a apprehensive style",
+        "A person is speaking in a uneasy style",
+        "A person is speaking in a fretful style",
+        "A person is speaking in an anxious style"
+    ],
+    "sleepy": [
+        "A person is speaking in a drowsy style",
+        "A person is speaking in a lethargic style",
+        "A person is speaking in a sluggish style",
+        "A person is speaking in a somnolent style",
+        "A person is speaking in a tired style",
+        "A person is speaking in a sleepy style"
+    ],
+    "admiring": [
+        "A person is speaking in a approving style",
+        "A person is speaking in a appreciative style",
+        "A person is speaking in a adoring style",
+        "A person is speaking in a reverent style",
+        "A person is speaking in a impressed style",
+        "A person is speaking in an admiring style"
+    ],
+    "disgusted": [
+        "A person is speaking in a repulsed style",
+        "A person is speaking in a revolted style",
+        "A person is speaking in a sickened style",
+        "A person is speaking in a appalled style",
+        "A person is speaking in a nauseated style",
+        "A person is speaking in a disgusted style"
+    ],
+    "awed": [
+        "A person is speaking in a amazed style",
+        "A person is speaking in a astonished style",
+        "A person is speaking in a awestruck style",
+        "A person is speaking in a dumbfounded style",
+        "A person is speaking in a wondrous style",
+        "A person is speaking in an awed style"
+    ],
+    "pained": [
+        "A person is speaking in a hurt style",
+        "A person is speaking in a agonized style",
+        "A person is speaking in a suffering style",
+        "A person is speaking in a distressed style",
+        "A person is speaking in a tormented style",
+        "A person is speaking in a pained style"
+    ],
+    "fast": [
+        "A person is speaking in a rapid style",
+        "A person is speaking in a swift style",
+        "A person is speaking in a hurried style",
+        "A person is speaking in a quick style",
+        "A person is speaking in a brisk style",
+        "A person is speaking in a fast style"
+    ],
+    "calm": [
+        "A person is speaking in a serene style",
+        "A person is speaking in a tranquil style",
+        "A person is speaking in a placid style",
+        "A person is speaking in a composed style",
+        "A person is speaking in a peaceful style",
+        "A person is speaking in a calm style"
+    ],
+    "whispered": [
+        "A person is speaking in a hushed style",
+        "A person is speaking in a muted style",
+        "A person is speaking in a low style",
+        "A person is speaking in a murmured style",
+        "A person is speaking in a faint style",
+        "A person is speaking in a whispered style"
+    ],
+    "enunciated": [
+        "A person is speaking in a articulated style",
+        "A person is speaking in a clear style",
+        "A person is speaking in a distinct style",
+        "A person is speaking in a precise style",
+        "A person is speaking in a well-defined style",
+        "A person is speaking in an enunciated style"
+    ],
+    "confused": [
+        "A person is speaking in a bewildered style",
+        "A person is speaking in a puzzled style",
+        "A person is speaking in a perplexed style",
+        "A person is speaking in a baffled style",
+        "A person is speaking in a disoriented style",
+        "A person is speaking in a confused style"
+    ],
+    "bored": [
+        "A person is speaking in a uninterested style",
+        "A person is speaking in a weary style",
+        "A person is speaking in a listless style",
+        "A person is speaking in a apathetic style",
+        "A person is speaking in a jaded style",
+        "A person is speaking in a bored style"
+    ],
+    "animated": [
+        "A person is speaking in a lively style",
+        "A person is speaking in a energetic style",
+        "A person is speaking in a vivacious style",
+        "A person is speaking in a spirited style",
+        "A person is speaking in a vibrant style",
+        "A person is speaking in a animated style"
+    ],
+    "laughing": [
+        "A person is speaking in a chuckling style",
+        "A person is speaking in a giggling style",
+        "A person is speaking in a chortling style",
+        "A person is speaking in a guffawing style",
+        "A person is speaking in a snickering style",
+        "A person is speaking in a laughing style"
+    ],
+    "passive": [
+        "A person is speaking in a submissive style",
+        "A person is speaking in a unresisting style",
+        "A person is speaking in a acquiescent style",
+        "A person is speaking in a compliant style",
+        "A person is speaking in a docile style",
+        "A person is speaking in a passive style"
+    ]
+}

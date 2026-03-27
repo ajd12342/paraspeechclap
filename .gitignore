@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hydra outputs
+outputs/
+multirun/
+
+# Experiment artifacts
+experiments/
+eval_results/
+wandb/
+*.pth
+*.pth.tar
+*.pt
+.local/
+
+# OS
+.DS_Store
+Thumbs.db
