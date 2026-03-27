@@ -1,12 +1,12 @@
 # ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining
 
-[[Paper]](#) [[HuggingFace]](https://huggingface.co/ajd12342) [[Dataset]](https://huggingface.co/datasets/ajd12342/paraspeechcaps)
+[[Paper]](#) [[HuggingFace Collection]](https://huggingface.co/collections/ajd12342/paraspeechclap-dual-encoder-speech-text-model)
 
 Official code and model release for the paper:
 
-> **ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining**
-> Anuj Diwan, Eunsol Choi, David Harwath
-> *Under Review*
+**ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining**\
+Anuj Diwan, Eunsol Choi, David Harwath\
+*Under Review*
 
 ParaSpeechCLAP is a CLAP-style dual-encoder model that maps speech and rich textual style descriptions into a common embedding space, supporting a wide range of **intrinsic** (speaker-level: pitch, texture, clarity, volume, rhythm) and **situational** (utterance-level: emotion, speaking style) descriptors.
 
