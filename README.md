@@ -1,12 +1,12 @@
 # ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining
 
-[[Paper]](#) [[HuggingFace Collection]](https://huggingface.co/collections/ajd12342/paraspeechclap-dual-encoder-speech-text-model)
+[[Paper]](https://arxiv.org/abs/2603.28737) [[HuggingFace Collection]](https://huggingface.co/collections/ajd12342/paraspeechclap-dual-encoder-speech-text-model)
 
 Official code and model release for the paper:
 
 **ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining**\
 Anuj Diwan, Eunsol Choi, David Harwath\
-*Under Review*
+*Under review*
 
 ParaSpeechCLAP is a CLAP-style dual-encoder model that maps speech and rich textual style descriptions into a common embedding space, supporting a wide range of **intrinsic** (speaker-level: pitch, texture, clarity, volume, rhythm) and **situational** (utterance-level: emotion, speaking style) descriptors.
 
@@ -378,11 +378,14 @@ paraspeechclap/
 ## Citation
 
 ```bibtex
-@inproceedings{diwan2026paraspeechclap,
-  title={{ParaSpeechCLAP}: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining},
-  author={Diwan, Anuj and Choi, Eunsol and Harwath, David},
-  journal={Under Review},
-  year={2026}
+@misc{diwan2026paraspeechclapdualencoderspeechtextmodel,
+      title={ParaSpeechCLAP: A Dual-Encoder Speech-Text Model for Rich Stylistic Language-Audio Pretraining},
+      author={Anuj Diwan and Eunsol Choi and David Harwath},
+      year={2026},
+      eprint={2603.28737},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2603.28737},
 }
 ```
 
