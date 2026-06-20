@@ -69,8 +69,19 @@ class SpeechEncoder(torch.nn.Module):
                 last_hidden_state = output.last_hidden_state
                 debug_tensor("AudioBranch last_hidden_state from audio_model", last_hidden_state)
             
-            pooled_output = torch.mean(last_hidden_state, dim=1)
-            debug_tensor("After mean pooling", pooled_output)
+            if attention_mask is not None and hasattr(self.base, "_get_feature_vector_attention_mask"):
+                # Convert raw waveform attention mask to the feature-vector length.
+                mask = self.base._get_feature_vector_attention_mask(
+                    feature_vector_length=last_hidden_state.shape[1],
+                    attention_mask=attention_mask,
+                ).unsqueeze(-1)
+            
+                mask = mask.to(dtype=last_hidden_state.dtype, device=last_hidden_state.device)
+                pooled_output = (last_hidden_state * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1.0)
+                debug_tensor("After attention-mask-aware mean pooling", pooled_output)
+            else:
+                pooled_output = torch.mean(last_hidden_state, dim=1)
+                debug_tensor("After mean pooling", pooled_output)
             
             return pooled_output
         except Exception as e:
